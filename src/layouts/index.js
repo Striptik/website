@@ -53,11 +53,9 @@ export default class Layout extends Component {
           <meta name="keywords" content="developer, développeur, javascript, fullstack, js, node.js, epitech, ecv, nestor, paris"/>
           <title>Kevin Loiseleur - Développeur JS</title>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:700|Roboto|Roboto+Slab:700"/>
-
-           <html lang="fr" dir="ltr" />
+          <html lang="fr" dir="ltr"/>
         </Helmet>
         
-       
         <Header
           pathname={pathname}
         />

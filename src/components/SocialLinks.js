@@ -6,7 +6,7 @@ import { FONT, COLOR, DIM } from '../css/variables';
 import media from '../css/media';
 
 const ListSocial = styled.ul`
-  font-size: 3rem;
+  font-size: ${props => props.localisation === 'pres' ? '5rem' : '3rem' };
   display: flex;
   justify-content: center;
 
@@ -25,12 +25,46 @@ const SocialItem = styled.li`
 `;
 
 const SocialLink = styled.a`
-  color: ${COLOR.ORANGE};
+  color: ${props => props.localisation === 'pres' ? COLOR.BLUE : COLOR.ORANGE};
 
   &:hover {
-    color: ${COLOR.BLUE};
+    color: ${props => props.localisation === 'pres' ? COLOR.GREY : COLOR.BLUE};
   }
 `;
+
+export const DevSocial = ({ localisation }) => (
+  <ListSocial
+    localisation={localisation}
+  >
+    <SocialItem>
+      <SocialLink
+        localisation={localisation}
+        target='_blank'
+        href='https://github.com/Striptik'
+      >
+        <FaGithub />
+      </SocialLink>
+    </SocialItem>
+    <SocialItem>
+      <SocialLink
+        localisation={localisation}
+        target='_blank'
+        href='https://fr.linkedin.com/in/kevin-loiseleur-30704398'
+      >
+        <FaLinkedin />
+      </SocialLink>
+    </SocialItem>
+    <SocialItem>
+      <SocialLink
+        localisation={localisation}
+        href='https://twitter.com/kloiseleur'
+        target='_blank'
+      >
+        <FaTwitter />
+      </SocialLink>
+    </SocialItem>
+  </ListSocial>
+);
 
 export default ({ localisation }) => (
   <ListSocial>

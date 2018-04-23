@@ -25,15 +25,16 @@ const NavItem = styled.li`
   width: 20%;
   text-align: right;
   padding-left: 2rem;
+  font-size: 2rem;
   /*height:2.5rem;*/
 
   &:first-child{
     width:60%;
     text-align:left;
-    font-size: 3rem;
+    font-size: 4rem;
 
     @media (${media.tablet}) {
-      font-size: 2rem;
+      font-size: 3rem;
     } 
   }
 `;
@@ -57,28 +58,19 @@ export default ({ pathname, hash }) => {
      */}
       <NavItem>
         <Item 
-          to="/parcours/"
+          to="/formation/"
           pathname={pathname}
           hash={hash}
-          label={'Parcours'}
+          label={'Formation'}
         />
       </NavItem>
       {/* Projets */}
       <NavItem>
         <Item 
-          to="/projets/"
+          to="/exp/"
           pathname={pathname}
           hash={hash}
-          label={'Projets'}
-        />
-      </NavItem>
-      {/* Autres */}
-      <NavItem>
-        <Item 
-          to="/divers/"
-          pathname={pathname}
-          hash={hash}
-          label={'Divers'}
+          label={'Expériences'}
         />
       </NavItem>
       {/* Contact */}
@@ -87,7 +79,7 @@ export default ({ pathname, hash }) => {
           to="/contact/"
           pathname={pathname}
           hash={hash}
-          label={'Contact'}
+          label={'Me Contacter'}
         />
       </NavItem>
 
