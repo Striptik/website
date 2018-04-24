@@ -6,7 +6,7 @@ import Link from 'gatsby-link';
 import { COLOR, FONT, DIM } from '../css/variables';
 
 const NavLink = styled(Link) `
-  width: 20%;
+  width: 33%;
   color: ${COLOR.GREY};
   font-family: ${FONT.TITLE};
   text-decoration: none;

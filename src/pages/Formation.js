@@ -47,7 +47,7 @@ const H3 = styled(H3Title)`
   font-size: 2rem;
 `;
 
-class Parcours extends Component {
+class Formation extends Component {
   constructor(props) {
     super(props);
   }
@@ -58,7 +58,7 @@ class Parcours extends Component {
         <PresSectionWrapper>
 
           <H1>
-            {'{'}FORMATION{'}'}
+            {'{'}Formation{'}'}
           </H1>
           <PP>
             Après avoir obtenu mon Baccalauréat série Scientifique, j'ai décidé de m'orienter vers une école de développement, EPITECH.
@@ -159,6 +159,7 @@ class Parcours extends Component {
             - Piscine Moon Shot - Entrepreunariat <br/>
             - Java (EpiDroid) / .Net (MyVLC) <br />
             - Gestion de projet (Agile) <br/>
+            - Part-Time (2j/semaine)
             - Préparation du projet de fin d'étude<br />
           </PP>
 
@@ -269,20 +270,12 @@ class Parcours extends Component {
           <br />
           <hr />
           <br />
-
-
-      <H1>
-      {'{'}EXPERIENCES PROFESSIONNELLES{'}'}
-      </H1>
-      <hr />
-      <hr />
-    
       </PresSectionWrapper>
       </Content>
     );
   }
 };
 
-export default Parcours;
+export default Formation;
 
         

@@ -88,10 +88,10 @@ class Index extends Component {
               size={2.4}
             >
               Avec une expérience de plus de 5 ans dans le développement,<br/>
-              je suis un réel passionné et enthousiaste, en perpetuelle formation et quête de nouveaux challenges.<br/><br/>
-              Ma mission est de construire des outils pour les humains, si possible en Javascript. <br/><br/>
-              Je suis également musicien, grimpeur, passioné de musique électronique, séries.<br/><br/>
-              Pour me connaître davantage, je vous invite à découvrir  <NavLink to='/formation/'>ma formation</NavLink> et <NavLink to='/exp/'>mes expériences professionnelles</NavLink>.
+              je suis un réel <b>passionné</b> et <b>enthousiaste</b>, en <b>perpetuelle formation</b> et quête de <b>nouveaux challenges</b>.<br/><br/>
+              Ma mission est de <b>construire des outils pour les humains</b>, avec préférence en <b>Javascript</b>. <br/><br/>
+              Je suis également <b>musicien</b>, <b>grimpeur</b>, <b>passioné de musique électronique</b>, <b>séries</b>.<br/><br/>
+              Pour me connaître davantage, je vous invite à découvrir  <NavLink to='/formation/'>ma formation</NavLink> et <NavLink to='/expériences/'>mes expériences professionnelles</NavLink>.
               N'hésitez pas à <NavLink to='/contact/'>me contacter</NavLink> 
             </PresP>
 

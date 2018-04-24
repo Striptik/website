@@ -22,7 +22,6 @@ const NavList = styled.ul`
 `;
 
 const NavItem = styled.li`
-  width: 20%;
   text-align: right;
   padding-left: 2rem;
   font-size: 2rem;
@@ -67,7 +66,7 @@ export default ({ pathname, hash }) => {
       {/* Projets */}
       <NavItem>
         <Item 
-          to="/exp/"
+          to="/expériences/"
           pathname={pathname}
           hash={hash}
           label={'Expériences'}
@@ -79,7 +78,7 @@ export default ({ pathname, hash }) => {
           to="/contact/"
           pathname={pathname}
           hash={hash}
-          label={'Me Contacter'}
+          label={'Contact'}
         />
       </NavItem>
 
