@@ -79,6 +79,7 @@ export default ({ pathname, hash }) => {
           pathname={pathname}
           hash={hash}
           label={'Contact'}
+          email
         />
       </NavItem>
 

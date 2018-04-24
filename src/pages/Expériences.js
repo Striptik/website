@@ -22,6 +22,8 @@ import imgUsineDoc from '../images/usineDoc.png';
 import imgExam from '../images/exam.png';
 import imgPres from '../images/Pres1.png';
 import imgEducatec from '../images/educatec.png';
+import imgCapteur from '../images/capteur.png';
+import imgEdenred from '../images/edenred.png';
 
 const PP = styled(P) `
   font-size: 2rem;
@@ -163,7 +165,53 @@ class Projets extends Component {
             <IMGLOGO src={imgNestor} alt='Logo Nestor'/>
           </LogoWrapper>
 
-        
+          <PP>
+            Mon expérience chez Nestor a débuté en Septembre 2016, dans le cadre d'une alternance lié au master de l'ECV Digital.<br /><br />
+
+            Nestor est une startup de la foodTech, qui a pour vocation de devenir LA brasserie numérique des entreprises.
+            À mon arrivée, nous vendions entre 400 et 600 menus, aujourd'hui nous sommes autour des 2500. 
+          </PP>
+          <br />
+          <PP>
+            L'équipe à laquelle je me suis greffé comportait 2 personnes. Je me suis mis sur la partie Back en NodeJS. J'ai eu l'occasion d'apprendre très vite et de toucher à tout :<br /><br />
+
+            - Résolutions de bugs <br />
+            - Scripts d'automatisation <br />
+            - Amélioration de l'existant<br />
+            - Nouvelles fonctionnalités pour le client<br />
+            - Nouvelles fonctionnalités pour les membres de l'équipe <br /><br />
+            
+            Parmis ces features:<br />
+            * Ajout de feedback client (notes et commentaires)<br />
+            * Nouveaux moyens de paiement (Edenred)<br />
+            * Thermomètres connectés aux chambres froides (température live, alertes)<br />
+            * Parrainage<br />
+            * Groupes clients<br />
+            * Calcul automatique du coût des retards
+            ...<br /><br />
+
+
+            Aujourd'hui je suis le seul développeur web chez Nestor, ce qui me fait devenir de plus en plus polyvalent (Front, Admin Sys, Entretiens...), autonome et responsable.<br /><br />
+            Cette expérience m'enseigne énormément et me fait progresser jour après jour. Je dois prendre les bonnes décisions, savoir estimer le temps de développement, être efficace et rigoureux.
+
+
+          
+          </PP>
+
+              <FigureWrapper>
+                <Figure>
+                  <Image src={imgCapteur} alt="Expérince Pro Capteur de température"/>
+                  <figcaption>Capteur de Température</figcaption>
+                </Figure>
+                <Figure>
+                  <Image src={imgEdenred} alt="Expérince Pro Edenred"/>
+                  <figcaption>Paiement Edenred</figcaption>
+                </Figure>
+              </FigureWrapper>
+
+
+          <br /><br />
+
 
         </PresSectionWrapper>
       </Content>

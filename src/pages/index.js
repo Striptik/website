@@ -92,7 +92,6 @@ class Index extends Component {
               Ma mission est de <b>construire des outils pour les humains</b>, avec préférence en <b>Javascript</b>. <br/><br/>
               Je suis également <b>musicien</b>, <b>grimpeur</b>, <b>passioné de musique électronique</b>, <b>séries</b>.<br/><br/>
               Pour me connaître davantage, je vous invite à découvrir  <NavLink to='/formation/'>ma formation</NavLink> et <NavLink to='/expériences/'>mes expériences professionnelles</NavLink>.
-              N'hésitez pas à <NavLink to='/contact/'>me contacter</NavLink> 
             </PresP>
 
           </PresTextWrapper>
